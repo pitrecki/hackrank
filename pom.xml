@@ -48,5 +48,11 @@
             <artifactId>assertj-core</artifactId>
             <version>3.6.1</version>
         </dependency>
+        <!--Benchit software-->
+        <dependency>
+            <groupId>org.pitrecki.benchmark</groupId>
+            <artifactId>benchit</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
