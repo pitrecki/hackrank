@@ -1,1 +1,2 @@
-Currently is empty, in nearlby future it should contains some serious text ;)
+My solutions of tasks from  hackerank.com
+Tasks only above medium

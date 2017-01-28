@@ -13,9 +13,9 @@ import java.util.regex.Pattern;
 public class Validator
 {
     private final String IPV4_REGEX = "(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
-    private final String USERNAME_REGEX = "^[a-zA-Z_]$";
+    private final String USERNAME_REGEX = "^[a-zA-Z_]+";
 
-    private enum Option{IPV4, USERNAME}
+    public enum Option{IPV4, USERNAME}
 
     private Pattern pattern;
 
